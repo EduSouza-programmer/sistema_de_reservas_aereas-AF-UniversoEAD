@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Reservas Aéreas - UNIVERSO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="logo">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3F3qY44LwdvpN9hjTCC_o6LtDabgjKrE1g&s"
+          alt="Logo UNIVERSO"
+        />
+      </div>
+      <div class="informacoes">
+        <div class="autor">Eduardo Lima da Silva Souza</div>
+        <div class="curso">Sistemas de informação</div>
+        <div class="matricula">Matricula: 600984190</div>
+        <div class="redes-sociais">
+          <a
+            href="https://github.com/EduSouza-programmer"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/eduardosouzaprogrammer/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <h1>Sistema de Reservas Aéreas</h1>
+        
+        <!-- Menu Principal -->
+        <div class="menu-principal" id="menuPrincipal">
+          <button class="menu-button" data-action="consultar">Consultar</button>
+          <button class="menu-button" data-action="reservar">Efetuar Reserva</button>
+          <button class="menu-button" data-action="sair">Sair</button>
+        </div>
+
+        <!-- Menu de Consulta -->
+        <div class="menu-consulta hidden" id="menuConsulta">
+          <h2>Consultar Voos</h2>
+          <button class="menu-button" data-action="porNumero">Por número do voo</button>
+          <button class="menu-button" data-action="porOrigem">Por origem</button>
+          <button class="menu-button" data-action="porDestino">Por destino</button>
+          <button class="menu-button voltar" data-action="voltarPrincipal">Voltar</button>
+        </div>
+
+        <!-- Formulário de Reserva -->
+        <div class="form-reserva hidden" id="formReserva">
+          <h2>Efetuar Reserva</h2>
+          <div class="form-group">
+            <label for="numeroVoo">Número do Voo:</label>
+            <input type="number" id="numeroVoo" min="1" required>
+          </div>
+          <button class="menu-button" id="confirmarReserva">Confirmar Reserva</button>
+          <button class="menu-button voltar" data-action="voltarPrincipal">Voltar</button>
+        </div>
+
+        <!-- Área de Resultado -->
+        <div class="resultado hidden" id="areaResultado">
+          <h2>Resultado da Operação</h2>
+          <p id="mensagemResultado"></p>
+          <button class="menu-button voltar" data-action="voltarPrincipal">Voltar</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Trabalho 1 - Estrutura de dados II</p>
+      <p>Sistema de Reservas Aéreas - UNIVERSO EAD</p>
+      <p>Professora: Alessandra Fonseca</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
