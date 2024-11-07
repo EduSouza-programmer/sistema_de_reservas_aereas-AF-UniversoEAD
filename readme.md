@@ -1,7 +1,7 @@
 # Sistema de Reservas Aéreas
 > Trabalho 1 - Estrutura de dados II
 
-![Preview do Sistema](https://raw.githubusercontent.com/seu-usuario/seu-repo/main/preview.png)
+![Preview do Sistema](https://github.com/EduSouza-programmer/sistema_de_reservas_aereas-AF-UniversoEAD/main/preview.png)
 
 ## 📝 Descrição
 Trabalho desenvolvido para a disciplina de Estrutura de Dados II do curso de Sistemas de Informação da UNIVERSO EAD, sob orientação da Professora Alessandra Fonseca.
@@ -28,7 +28,7 @@ Sistema para efetuar reserva de passagens aéreas de uma companhia, implementand
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/sistema-reservas-aereas.git
+git clone https://github.com/EduSouza-programmer/sistema_de_reservas_aereas-AF-UniversoEAD.git
 ```
 
 2. Navegue até o diretório do projeto
@@ -65,4 +65,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para 
 
 ---
 
-Feito com ❤️ por Eduardo Lima
+<div align="center">
+ Feito com ❤️ por Eduardo Lima
+</div>
