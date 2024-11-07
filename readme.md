@@ -1,7 +1,7 @@
 # Sistema de Reservas Aéreas
 > Trabalho 1 - Estrutura de dados II
 
-![Preview do Sistema](https://github.com/EduSouza-programmer/sistema_de_reservas_aereas-AF-UniversoEAD/main/preview.png)
+![Preview do Sistema](./preview.png)
 
 ## 📝 Descrição
 Trabalho desenvolvido para a disciplina de Estrutura de Dados II do curso de Sistemas de Informação da UNIVERSO EAD, sob orientação da Professora Alessandra Fonseca.
