@@ -3,6 +3,9 @@
 
 ![Preview do Sistema](./preview.png)
 
+## 🔗 Demonstração
+Acesse o sistema em funcionamento: [Sistema de Reservas Aéreas](https://edusouza-programmer.github.io/sistema_de_reservas_aereas-AF-UniversoEAD/)
+
 ## 📝 Descrição
 Trabalho desenvolvido para a disciplina de Estrutura de Dados II do curso de Sistemas de Informação da UNIVERSO EAD, sob orientação da Professora Alessandra Fonseca.
 
